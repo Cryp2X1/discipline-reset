@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Discipline Reset",
+    "slug": "discipline-reset",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "disciplinereset",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#0a0a0a",
+    "ios": {
+      "bundleIdentifier": "com.josecruzortiz.disciplinereset",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.josecruzortiz.disciplinereset",
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a0a",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "name": "Discipline Reset",
+      "themeColor": "#0a0a0a",
+      "backgroundColor": "#0a0a0a"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-sharing",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#0a0a0a"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#FFE600"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
