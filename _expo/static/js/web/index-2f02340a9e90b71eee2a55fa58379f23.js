@@ -1,0 +1,1 @@
+__d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),Object.defineProperty(e,"default",{enumerable:!0,get:function(){return u}});var t=r(d[0]),n=r(d[1]),o=r(d[2]);function u(){const{data:u}=(0,n.useStore)();return(0,o.jsx)(t.Redirect,{href:u.onboarded?'/today':'/welcome'})}},769,[775,782,6]);
